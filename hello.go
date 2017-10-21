@@ -1,7 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/dreka5/hello/train"
+	"github.com/dreka5/some"
+	"github.com/dreka5/stringutil"
+	"github.com/dreka5/vaka"
+)
 
 func main() {
-	fmt.Printf("Hello, world.\n")
+
+	vaka.GoVaka()
+	vaka.GoVaka()
+	train.RunTran()
+	some.Reverse25("")
+	stringutil.Reverse("")
+	stringutil.Reverse2("")
+	fmt.Printf(stringutil.Reverse("!oG ,olleH  123 555"))
 }
